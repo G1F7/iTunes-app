@@ -85,4 +85,6 @@ This app has been secured using [Helmet](https://helmetjs.github.io/). The websi
 
 Another security measure that is commonly used when fetching data from an API like the iTunes store API, is to store the API key in a separate file called ".env" (An application programming interface (API) key is a code used to identify and authenticate an application or user. - source: [Fortinet.com](https://www.fortinet.com/resources/cyberglossary/api-key) ). The API key is then referenced in the app without having to hard code it (which could be a security risk). See figure 10 below to see an example of how the api key can be called (this example is from a different project).
 Another important step is to add ".env" to the ".gitignore" file so that the file that stores your API key isn’t pushed to GitHub (for anyone to see!).
-
+ 
+ ##netlify-app
+CI= npm run build
